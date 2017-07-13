@@ -1,2 +1,2 @@
 # mini_keyboard
-plank-style keyboard
+planck-style keyboard

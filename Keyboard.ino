@@ -147,12 +147,3 @@ void loop()
   delay(50);
 }
 
-#if 0
-if (k == M_SHIFT) mod = mod & MODIFIERKEY_SHIFT;
-if (k == M_CTRL) mod = mod & MODIFIERKEY_CTRL;
-if (k == M_ALT) mod = mod & MODIFIERKEY_ALT;
-if (k == M_SUPER) mod = mod & MODIFIERKEY_GUI;
-Keyboard.set_modifier(mod);
-Keyboard.send_now();
-#endif
-
